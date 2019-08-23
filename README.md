@@ -22,8 +22,6 @@ React App (React Fundamentals Course)
 
 🔥 **Github Battle** is a React App that pulls data from the [Github API](https://developer.github.com/v3/) to achieve multiple actions like Github Users Battle, Most Popular Repos and User Info, responsive and Service Worker running, animations with [gsap](https://greensock.com/gsap) super snappy for quick switching thanks to React Virtual DOM 🔥
 
-📖 This app is the final result of the course **React Fundamentals** which you can find [here](https://learn.tylermcginnis.com) + other additions like animations and extra functionality
-
 <p><a href="http://github-react-battle.surge.sh/" class="btn btn-primary btn-md">Launch App</a></p>
 </div>
 
