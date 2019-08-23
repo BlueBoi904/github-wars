@@ -18,9 +18,9 @@
 
 </p>
 
-🔥 **Github Battle** is a React App that pulls data from the [Github API](https://developer.github.com/v3/) to achieve multiple actions like Github Users Battle, Most Popular Repos and User Info, responsive and Service Worker running, animations with [gsap](https://greensock.com/gsap) super snappy for quick switching thanks to React Virtual DOM 🔥
+🔥 **Github Battle** is a React App that pulls data from the [Github API](https://developer.github.com/v3/) to achieve multiple actions like Github Users Battle, Most Popular Repos and User Info.
 
-<p><a href="http://github-react-battle.surge.sh/" class="btn btn-primary btn-md">Launch App</a></p>
+<p><a href="#" class="btn btn-primary btn-md">Launch App</a></p>
 </div>
 
 ## Features
