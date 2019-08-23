@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Github-Battle
 
-## Available Scripts
+React App (React Fundamentals Course)
 
-In the project directory, you can run:
+<!---  LOGO   -->
+<div align="center">
+<p>
+<img src="./public/favicon.png" width="200"/>
+</p>
 
-### `npm start`
+<!---  SHIELDS   -->
+<p>
+<a href="">
+  <img alt="first release" src="https://img.shields.io/badge/release-v1.0-brightgreen.svg" />
+</a>
+&nbsp
+<a href="">
+  <img alt="react is dope" src="https://img.shields.io/badge/React-is%20dope%20%E2%AD%90-00D8FF.svg" />
+</a>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</p>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+🔥 **Github Battle** is a React App that pulls data from the [Github API](https://developer.github.com/v3/) to achieve multiple actions like Github Users Battle, Most Popular Repos and User Info, responsive and Service Worker running, animations with [gsap](https://greensock.com/gsap) super snappy for quick switching thanks to React Virtual DOM 🔥
 
-### `npm test`
+📖 This app is the final result of the course **React Fundamentals** which you can find [here](https://learn.tylermcginnis.com) + other additions like animations and extra functionality
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p><a href="http://github-react-battle.surge.sh/" class="btn btn-primary btn-md">Launch App</a></p>
+</div>
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚒️ **Simple**: Bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and using [React](https://facebook.github.io/react/)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- 📊 **Real-time**: Data obtained from the [Github API](https://developer.github.com/v3/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 📱 **Responsive**: Made mobile responsive with Flexbox
 
-### `npm run eject`
+- 🎉 **Animations**: Using [gsap](https://greensock.com/gsap)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 🔥 **Live**: Deployed with [Surge](https://surge.sh/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!---  SCREENSHOOT   -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Demo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<div align="center">
+    <img src="./React-Github-Battle.gif"/>
+</div>
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fork or download this repo , move inside and run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javascript
+npm install
+yarn start
+```
 
-### Code Splitting
+Open development build on [http://localhost:3000/](http://localhost:3000/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+To deploy it:
 
-### Analyzing the Bundle Size
+```javascript
+yarn build
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## To-Do
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [ ] Improve the design, add Loading to the Search Component
