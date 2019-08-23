@@ -3,12 +3,14 @@ import Popular from "./components/Popular";
 
 import "./index.css";
 
-const App = () => {
-  return (
-    <div className="container">
-      <Popular />
-    </div>
-  );
-};
+class App extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <Popular />
+      </div>
+    );
+  }
+}
 
 export default App;

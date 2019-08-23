@@ -37,11 +37,11 @@
 
 <!---  SCREENSHOOT   -->
 
-## Demo
+<!-- ## Demo
 
 <div align="center">
     <img src="./React-Github-Battle.gif"/>
-</div>
+</div> -->
 
 ## Usage
 
